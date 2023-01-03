@@ -1,0 +1,26 @@
+@charset "UTF-8";
+	#container table {
+        width: 50%;
+        margin: auto;
+    }
+    #container input { border: none; }
+    #container, #board {
+		/* border: 1px solid blue; */
+		width: 512px; margin: auto;
+	}
+	#container h2, h3 { text-align: center; }
+	#container p { text-align: center; }
+	#container table {
+		width: 90%;
+		border-collapse: collapse;
+	}
+	#container th { background-color: #8000ff; }
+	#container th, #container td { border: 1px solid black; padding: 5px; }
+	.center { text-align: center; }
+	#login { text-align: center; }
+	#container tfoot tr {
+		width:100%;
+		border-collapse: collapse;
+		text-align:center;
+	}
+	#idcheck {text-align:center;}
