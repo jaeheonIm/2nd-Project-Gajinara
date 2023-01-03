@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+        <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="${pageContext.request.contextPath}/index.html"><img src="${pageContext.request.contextPath}/img/logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li>Address: 서울특별시 강남구 역삼동</li>
+                            <li>Phone: +82 2200-0000</li>
+                            <li>Email: gajinara@contact.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                    <h6>가지나라</h6>
+                        <ul>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">위치기반서비스 이용약관</a></li>
+                            <li><a href="#">이용자보호 비전과 계획</a></li>
+                        </ul>
+                    </div>
+                </div>
+         		<div class="col-lg-4 col-md-12">
+	           		<div class="footer__widget">
+	               	   <h6>가지나라의 소식을 받아보세요</h6>
+		               <p>이메일을 입력하시면 가지나라의 소식을 보내드립니다</p>
+		               <form action="alert('가지 나라의 소식을 이메일로 보내드리겠습니다!')">
+		                   <input type="text" placeholder="이메일을 입력하세요">
+		                   <button type="submit" class="site-btn">구독</button>
+		               </form>
+	   				</div>
+           		 <div class="row">
+                	<div class="col-lg-12">
+	                    <div class="footer__copyright">
+	                        <div class="footer__copyright__payment"><img src="${pageContext.request.contextPath}/img/payment-item.png" alt=""></div>
+	                    </div>
+                	</div>
+            	</div>
+        		</div>
+        	</div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="${pageContext.request.contextPath}/js/jquery-3.3.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery.nice-select.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery-ui.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery.slicknav.js"></script>
+    <script src="${pageContext.request.contextPath}/js/mixitup.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/owl.carousel.min.js"></script>
+    <script src="${pageContext.request.contextPath}/js/main.js"></script>
+
+	<script src="${pageContext.request.contextPath}/chat/Chat.js"></script>
+ 	<script src="${pageContext.request.contextPath}/chat/Reply.js"></script>
+
+</body>
+
+</html>
